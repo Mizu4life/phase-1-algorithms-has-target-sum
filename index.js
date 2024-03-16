@@ -29,7 +29,10 @@ function hasTargetSum(array, target) {
   the final result is the summation of itrations (j=0 to j=i-1) or (j=0 to j=n-2), 
   which is itrations= ∑(i-1) for the period i=[1-n], the total itrations for our example is 15) 
   So, in total it will take O(∑(i-1), i=[1-n]) which is less than Quadratic Time.
+  
   Note: you can cancle comment on lines 2, 9 and 16 to see the total number of itrations.
+
+  The  space complexity is constant O(1).
 */
 
 /* 
